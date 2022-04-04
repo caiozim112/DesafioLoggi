@@ -1,8 +1,10 @@
-package Model;
+package util;
+
+import Model.Codigo;
 
 public class ValidarDados {
 
-	public Codigo ValidarDados(String codigoBarras) {
+	public Codigo validarDados(String codigoBarras) {
 		String origem = "", destino = "", codigoLoggi = "", vendedor = "", tipoProduto = "";
 		String Codigo[] = codigoBarras.split(":");
 		String Pacote = String.join("", Codigo[0]);
@@ -22,18 +24,18 @@ public class ValidarDados {
 				tipoProduto += numeros[i];
 			}
 		}
-		origem = OrigemEDestino(origem);
-		destino = OrigemEDestino(destino);
-		;
+		origem = origemEdestino(origem);
+		destino = origemEdestino(destino);
 		tipoProduto = tipoProduto(tipoProduto);
 		if (origem.equalsIgnoreCase("inválido") || destino.equalsIgnoreCase("inválido")
-				|| tipoProduto.equalsIgnoreCase("inválido")) {
+				|| tipoProduto.equalsIgnoreCase("inválido") || vendedor.equalsIgnoreCase("367")
+				|| tipoProduto.equalsIgnoreCase("Jóias") && origem.equalsIgnoreCase("Centro-oeste")) {
 			return new Codigo(Pacote, "inválido", origem, destino, codigoLoggi, vendedor, tipoProduto);
 		}
 		return new Codigo(Pacote, "valido", origem, destino, codigoLoggi, vendedor, tipoProduto);
 	}
 
-	public String OrigemEDestino(String number) {
+	public String origemEdestino(String number) {
 		int compara = Integer.parseInt(number);
 
 		if (compara >= 201 && compara <= 299) {

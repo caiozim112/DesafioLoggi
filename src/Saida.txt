@@ -1,0 +1,193 @@
+1. Identificar a região de destino de cada pacote, com totalização de pacotes soma região
+Listar todos os pacotes
+[pacote=Pacote 1, valida=valido, origem=Centro-oeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 2, valida=valido, origem=Nordeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 3, valida=inválido, origem=Centro-oeste, destino=Nordeste, codigoLoggi=555, vendedor=124, tipoProduto=Jóias]
+[pacote=Pacote 4, valida=valido, origem=Sudeste, destino=Sul, codigoLoggi=555, vendedor=874, tipoProduto=Bebidas]
+[pacote=Pacote 5, valida=inválido, origem=Sul, destino=Sul, codigoLoggi=555, vendedor=654, tipoProduto=inválido]
+[pacote=Pacote 6, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Eletrônicos]
+[pacote=Pacote 7, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 8, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 9, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=124, tipoProduto=Jóias]
+[pacote=Pacote 10, valida=valido, origem=Nordeste, destino=Sul, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 11, valida=inválido, origem=inválido, destino=Centro-oeste, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 12, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 13, valida=inválido, origem=Centro-oeste, destino=inválido, codigoLoggi=555, vendedor=367, tipoProduto=Eletrônicos]
+[pacote=Pacote 14, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+[pacote=Pacote 15, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 16, valida=valido, origem=Nordeste, destino=Norte, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 17, valida=valido, origem=Norte, destino=Norte, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 18, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 19, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=845, tipoProduto=Eletrônicos]
+[pacote=Pacote 20, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+Digite o numero do pacote do qual deseja saber a respeito: 4
+[pacote=Pacote 4, valida=valido, origem=Sudeste, destino=Sul, codigoLoggi=555, vendedor=874, tipoProduto=Bebidas]
+
+2. Saber quais pacotes possuem códigos de barras válidos e/ou inválidos
+-----------------------Válidos-----------------------
+[pacote=Pacote 1, valida=valido, origem=Centro-oeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 2, valida=valido, origem=Nordeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 4, valida=valido, origem=Sudeste, destino=Sul, codigoLoggi=555, vendedor=874, tipoProduto=Bebidas]
+[pacote=Pacote 6, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Eletrônicos]
+[pacote=Pacote 7, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 8, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 9, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=124, tipoProduto=Jóias]
+[pacote=Pacote 10, valida=valido, origem=Nordeste, destino=Sul, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 12, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 14, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+[pacote=Pacote 15, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 16, valida=valido, origem=Nordeste, destino=Norte, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 17, valida=valido, origem=Norte, destino=Norte, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 18, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 19, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=845, tipoProduto=Eletrônicos]
+[pacote=Pacote 20, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+
+-----------------------Inválidos----------------------
+[pacote=Pacote 3, valida=inválido, origem=Centro-oeste, destino=Nordeste, codigoLoggi=555, vendedor=124, tipoProduto=Jóias]
+[pacote=Pacote 5, valida=inválido, origem=Sul, destino=Sul, codigoLoggi=555, vendedor=654, tipoProduto=inválido]
+[pacote=Pacote 11, valida=inválido, origem=inválido, destino=Centro-oeste, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 13, valida=inválido, origem=Centro-oeste, destino=inválido, codigoLoggi=555, vendedor=367, tipoProduto=Eletrônicos]
+
+3. Identificar os pacotes que têm como origem a região Sul e Brinquedos em seu conteúdo
+Não tem nenhum pacote com esse requisitos
+4. Listar os pacotes agrupados por região de destino (Considere apenas pacotes válidos)
+----------------------Regiao----------------------
+-------------------Centro-oeste--------------
+
+-------------------Nordeste------------------
+[pacote=Pacote 1, valida=valido, origem=Centro-oeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 2, valida=valido, origem=Nordeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 6, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Eletrônicos]
+[pacote=Pacote 8, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 9, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=124, tipoProduto=Jóias]
+[pacote=Pacote 12, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 14, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+[pacote=Pacote 15, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 18, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 20, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+
+-------------------Norte---------------------
+[pacote=Pacote 16, valida=valido, origem=Nordeste, destino=Norte, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 17, valida=valido, origem=Norte, destino=Norte, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+
+-------------------Sudeste-------------------
+[pacote=Pacote 7, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 19, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=845, tipoProduto=Eletrônicos]
+
+-------------------Sul-----------------------
+[pacote=Pacote 4, valida=valido, origem=Sudeste, destino=Sul, codigoLoggi=555, vendedor=874, tipoProduto=Bebidas]
+[pacote=Pacote 10, valida=valido, origem=Nordeste, destino=Sul, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+--------------------Tipo---------------------
+--------------------Jóias--------------------
+[pacote=Pacote 3, valida=inválido, origem=Centro-oeste, destino=Nordeste, codigoLoggi=555, vendedor=124, tipoProduto=Jóias]
+[pacote=Pacote 9, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=124, tipoProduto=Jóias]
+[pacote=Pacote 11, valida=inválido, origem=inválido, destino=Centro-oeste, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 14, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+[pacote=Pacote 17, valida=valido, origem=Norte, destino=Norte, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 20, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+
+-------------------Livros--------------------
+
+-----------------Eletrônicos-----------------
+[pacote=Pacote 2, valida=valido, origem=Nordeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 6, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Eletrônicos]
+[pacote=Pacote 8, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 10, valida=valido, origem=Nordeste, destino=Sul, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 13, valida=inválido, origem=Centro-oeste, destino=inválido, codigoLoggi=555, vendedor=367, tipoProduto=Eletrônicos]
+[pacote=Pacote 16, valida=valido, origem=Nordeste, destino=Norte, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 19, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=845, tipoProduto=Eletrônicos]
+
+-------------------Bebidas-------------------
+[pacote=Pacote 4, valida=valido, origem=Sudeste, destino=Sul, codigoLoggi=555, vendedor=874, tipoProduto=Bebidas]
+[pacote=Pacote 12, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 15, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 18, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+
+-------------------Brinquedos-----------------
+[pacote=Pacote 1, valida=valido, origem=Centro-oeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 7, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+
+5. Listar o número de pacotes enviados por cada vendedor (Considere apenas pacotes válidos)
+Digite o código do vendedor
+123
+[pacote=Pacote 1, valida=valido, origem=Centro-oeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 6, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Eletrônicos]
+[pacote=Pacote 7, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 11, valida=inválido, origem=inválido, destino=Centro-oeste, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 12, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 15, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 17, valida=valido, origem=Norte, destino=Norte, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 18, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+
+6. Gerar o relatório/lista de pacotes por destino e por tipo (Considere apenas pacotes válidos)
+-------------------Regiao-------------------
+----------------Centro-oeste----------------
+
+----------------Nordeste---------------
+[pacote=Pacote 1, valida=valido, origem=Centro-oeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 2, valida=valido, origem=Nordeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 6, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Eletrônicos]
+[pacote=Pacote 8, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 9, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=124, tipoProduto=Jóias]
+[pacote=Pacote 12, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 14, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+[pacote=Pacote 15, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 18, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 20, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+
+----------------Norte------------------
+[pacote=Pacote 16, valida=valido, origem=Nordeste, destino=Norte, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 17, valida=valido, origem=Norte, destino=Norte, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+
+----------------Sudeste----------------
+[pacote=Pacote 7, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 19, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=845, tipoProduto=Eletrônicos]
+
+----------------Sul--------------------
+[pacote=Pacote 4, valida=valido, origem=Sudeste, destino=Sul, codigoLoggi=555, vendedor=874, tipoProduto=Bebidas]
+[pacote=Pacote 10, valida=valido, origem=Nordeste, destino=Sul, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+
+----------------Tipo--------------------
+----------------Jóias-------------------
+[pacote=Pacote 9, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=124, tipoProduto=Jóias]
+[pacote=Pacote 14, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+[pacote=Pacote 17, valida=valido, origem=Norte, destino=Norte, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 20, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=874, tipoProduto=Jóias]
+
+---------------Livros-------------------
+
+--------------Eletrônicos--------------
+[pacote=Pacote 2, valida=valido, origem=Nordeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 6, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Eletrônicos]
+[pacote=Pacote 8, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 10, valida=valido, origem=Nordeste, destino=Sul, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 16, valida=valido, origem=Nordeste, destino=Norte, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 19, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=845, tipoProduto=Eletrônicos]
+
+--------------Bebidas------------------
+[pacote=Pacote 4, valida=valido, origem=Sudeste, destino=Sul, codigoLoggi=555, vendedor=874, tipoProduto=Bebidas]
+[pacote=Pacote 12, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 15, valida=valido, origem=Sul, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+[pacote=Pacote 18, valida=valido, origem=Sudeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Bebidas]
+
+--------------Brinquedos-----------------
+[pacote=Pacote 1, valida=valido, origem=Centro-oeste, destino=Nordeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+[pacote=Pacote 7, valida=valido, origem=Norte, destino=Sudeste, codigoLoggi=555, vendedor=123, tipoProduto=Brinquedos]
+
+7. Se o transporte dos pacotes para o Norte passa pela Região Centro-Oeste, quais são os pacotes que devem ser despachados no mesmo caminhão
+[pacote=Pacote 11, valida=inválido, origem=inválido, destino=Centro-oeste, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 16, valida=valido, origem=Nordeste, destino=Norte, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 17, valida=valido, origem=Norte, destino=Norte, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+8. Se todos os pacotes fossem uma fila qual seria a ordem de carga para o Norte no caminhão para descarregar os pacotes da Região Centro Oeste primeiro
+[pacote=Pacote 11, valida=inválido, origem=inválido, destino=Centro-oeste, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 16, valida=valido, origem=Nordeste, destino=Norte, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+[pacote=Pacote 17, valida=valido, origem=Norte, destino=Norte, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+9. No item acima considerar que as jóias fossem sempre as primeiras a serem descarregadas
+[pacote=Pacote 11, valida=inválido, origem=inválido, destino=Centro-oeste, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 17, valida=valido, origem=Norte, destino=Norte, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 16, valida=valido, origem=Nordeste, destino=Norte, codigoLoggi=555, vendedor=584, tipoProduto=Eletrônicos]
+10. Listar os pacotes inválidos.
+[pacote=Pacote 3, valida=inválido, origem=Centro-oeste, destino=Nordeste, codigoLoggi=555, vendedor=124, tipoProduto=Jóias]
+[pacote=Pacote 5, valida=inválido, origem=Sul, destino=Sul, codigoLoggi=555, vendedor=654, tipoProduto=inválido]
+[pacote=Pacote 11, valida=inválido, origem=inválido, destino=Centro-oeste, codigoLoggi=555, vendedor=123, tipoProduto=Jóias]
+[pacote=Pacote 13, valida=inválido, origem=Centro-oeste, destino=inválido, codigoLoggi=555, vendedor=367, tipoProduto=Eletrônicos]

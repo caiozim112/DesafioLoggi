@@ -1,16 +1,16 @@
 package Model;
 
 public class Codigo {
-	private String Pacote;
-	private String valida =null;
-	private String origem = null;
+	private String pacote;
+	private String valida;
+	private String origem;
 	private String destino;
 	private String codigoLoggi;
 	private String vendedor;
 	private String tipoProduto;
 
-	public Codigo(String Pacote,String valida,String origem, String destino, String codigoLoggi, String vendedor, String tipoProduto) {
-		this.Pacote=Pacote;
+	public Codigo(String pacote,String valida,String origem, String destino, String codigoLoggi, String vendedor, String tipoProduto) {
+		this.pacote=pacote;
 		this.valida=valida;
 		this.origem = origem;
 		this.destino = destino;
@@ -20,7 +20,7 @@ public class Codigo {
 	}
 
 	public String getPacote() {
-		return Pacote;
+		return pacote;
 	}
 
 	public String getValida() {
@@ -49,7 +49,7 @@ public class Codigo {
 
 	@Override
 	public String toString() {
-		return "Codigo [Pacote=" + Pacote + ", valida=" + valida + ", origem=" + origem + ", destino=" + destino
+		return "[pacote=" + pacote + ", valida=" + valida + ", origem=" + origem + ", destino=" + destino
 				+ ", codigoLoggi=" + codigoLoggi + ", vendedor=" + vendedor + ", tipoProduto=" + tipoProduto + "]";
 	}
 
